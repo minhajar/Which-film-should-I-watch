@@ -54,8 +54,8 @@ for store in movie_data:
 
 movie_DF = pd.DataFrame({"Rank" : rank ,"Name_of_movie" : title ,"Year_of_release" : year, "Runtime_in_minutes" : runtime_min, "Genre" : genre, "Votes" : votes , "Rating" : rating , "Metascore" : metascore , "Earnings" : gross})
 
-movie_DF.to_csv("C:/Users/LenovO/Desktop/projectstuff/scraped_Data.csv")
+movie_DF.to_csv("scraped_Data.csv")
 
 #N=np.count_nonzero(title)
 #print(N)
-#print(movie_DF)
+print(movie_DF)
