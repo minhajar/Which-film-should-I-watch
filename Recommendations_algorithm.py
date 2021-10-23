@@ -6,7 +6,7 @@ import numpy as np
 
 #read the csv file containing the movie dataset
 
-df = pd.read_csv("C:/Users/LenovO/Desktop/projectstuff/scraped_Data.csv")
+df = pd.read_csv("scraped_Data.csv")
 #print (df.head())
 
 # helping functions
